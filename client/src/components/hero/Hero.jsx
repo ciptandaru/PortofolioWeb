@@ -8,7 +8,7 @@ import {FaFacebook, FaLinkedinIn} from "react-icons/fa";
 import {FiDownload} from "react-icons/fi";
 import {FaPlay} from "react-icons/fa";
 import {TypeAnimation} from "react-type-animation";
-import resumePDF from "../../assets/Resume-Dhimas-Ciptandaru.pdf";
+import resumePDF from "../../assets/CV-Dhimas-Ciptandaru-Iskandar.pdf";
 import heroImage from "../../assets/main.png";
 
 const Hero = () => {

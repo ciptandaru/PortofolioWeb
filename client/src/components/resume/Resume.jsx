@@ -25,7 +25,71 @@ const Resume = () => {
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-blue-500">
               Experience
             </legend>
-            <div className=" relative">
+            <div className="relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  FullStack Developer
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Freelance
+                </span>
+                <span className=" text-[.9rem] font-semibold text-blue-500 sm:text-base">
+                  November 2023 - Now
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Frontend Development: Building responsive and interactive user
+                  interfaces (UI) using languages such as HTML, CSS, and
+                  JavaScript. This involves designing layouts, user
+                  interactions, and integrating with the backend. Backend
+                  Development: Building the server-side logic and
+                  functionalities of the application using various backend
+                  technologies such as Node.js and Firebase, Database
+                  Management: Designing database schemas, creating and managing
+                  databases, and writing queries to access and manipulate data.
+                  This may involve using relational databases such as MySQL,
+                  PostgreSQL, or SQL Server, as well as NoSQL databases like
+                  MongoDB or Redis, depending on the project's requirements.
+                </p>
+              </div>
+            </div>
+            <div className="mt-10 relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Virtual Internship Program
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Forage
+                </span>
+                <span className=" text-[.9rem] font-semibold text-blue-500 sm:text-base">
+                  May 2023 - August 2023
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Lyft: Back-End Engineering Virtual Experience Program:
+                  Software Architecture, Unit Testing, Test-Driven Development.
+                  BlackBird: Software Engineering Virtual Experience Program:
+                  Collaborate Using GitHub with Propeller, Build And Verify Your
+                  Code with Harrison AI, Utilize An Open Source Project with
+                  Morse Micro. Walmart: Advanced Software Engineering Virtual
+                  Experience Program
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-10 relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
                 <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>

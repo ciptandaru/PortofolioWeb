@@ -3,16 +3,9 @@ import HNImage from "../assets/HN.png";
 import ComicImage from "../assets/Comic.png";
 import GameImage from "../assets/Game.png";
 import KitchenImage from "../assets/Kitchen.png";
+import CadiraImage from "../assets/CadiraImage.png";
 
 export const data = [
-  {
-    id: 1,
-    img: GameImage,
-    title: "Game.Id",
-    desc: "Web based application to display games list",
-    link: "",
-    git: "https://github.com/ciptandaru/GameId",
-  },
   {
     id: 2,
     img: KitchenImage,
@@ -51,5 +44,21 @@ export const data = [
     desc: "A mobile and web based application to display wedding venues",
     link: "",
     git: "https://github.com/Yazid9899/wedding-planners",
+  },
+  {
+    id: 7,
+    img: GameImage,
+    title: "Game.Id",
+    desc: "Web based application to display games list",
+    link: "",
+    git: "https://github.com/ciptandaru/GameId",
+  },
+  {
+    id: 1,
+    img: CadiraImage,
+    title: "Cadira",
+    desc: "Cadira is an online training platform specifically designed to help aspiring police officers prepare for their official exams.",
+    link: "https://cadira-dev.web.app/",
+    git: "https://github.com/dedysimamora/cadira",
   },
 ];
